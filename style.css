@@ -1,0 +1,314 @@
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+
+.nav1{
+    background-color: rgba(12, 26, 224, 0.75);
+    list-style-type: none;
+    border-radius: 5px;
+    text-align: right;
+    padding: 10px 25px;
+}
+.nav1 ul li{
+display: inline-flex;
+}
+.nav1 ul li a{
+color: white;
+    text-decoration: none;
+    margin: 0 0 0 5rem;
+    font-family: sans-serif;
+}
+
+.active, .nav1 li :hover {
+color: black;
+}
+
+span{
+    font-size: largegit;
+    font-weight: bolder;
+    color: gold;
+}
+.logo{
+float: left;
+}
+.page1 img{
+    filter: brightness(40%);
+    width: 100%;
+}
+
+.one{
+    top: 40%;
+    position: absolute;
+    color: white;
+    padding: 10px 10px;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.one p{
+    font-size: 30px;
+}
+
+@media only screen and (max-width:600px){.nav1 ul li{
+    display: block;
+
+
+}
+.page1 img{
+    max-width: 100%;
+    
+}
+.page1{
+    width: 100%;
+}
+.nav1{
+    max-width: 1200px;
+}
+.nav1 ul li a{
+    font-size: medium;
+    margin: 0 0 0 1rem;
+}
+.page2{
+    display:block;
+
+}
+
+p{
+    display: block;
+}
+
+
+.one p{
+    font-size: 20px;
+}
+.page1 button{
+    padding: 5px;
+    font-size: small;
+}
+
+.content1 img{
+    display: block;
+}
+.gallery1 img{
+    max-width: 100%;
+    
+}
+.footer1{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.active .nav1 ul li a :hover{
+    color: black;
+}
+}
+.page1 button{
+    background-color: rgb(255, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: larger;
+    color: rgb(102, 163, 11);
+}
+
+
+.text1{
+    
+    padding:10px 20px;
+    margin-right: 150px;
+    margin-right: 10%;
+    margin-left: 5%;
+    font-size: 30px;
+    color: goldenrod;
+    display: block;
+    background-color: rgb(255, 228, 196, 0.3);
+    border-radius: 5px;
+    
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    color: plum;
+}
+
+.text1 button{
+    background-color: rgb(0, 128, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+.page4 p{
+    font-size: 16px;
+    font-family: 'Trebuchet MS';
+    align-items: center;
+}
+
+.content1{
+    margin: 5px;
+    float: left;
+    width: 400px;
+    border: 1px solid gray;
+
+    
+}
+
+.content1 img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+.content1 :hover{
+    border: 5px solid gray;
+    box-shadow: aliceblue;
+}
+.page2{
+    margin-top: 10px;
+}
+
+
+.desc :hover{
+    background-color: rgb(105, 255, 240);
+    color: white;
+}
+.content1 :hover{
+    filter: brightness(80%);
+    
+}
+footer{
+    background-color: rgba(12, 26, 224, 0.75);
+    margin-top: 10px;
+    color: white;
+    width: 100%;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+.footer1 ul :hover{
+    color: blue;
+    cursor: pointer;
+    
+}
+
+.footer1 ul{
+    display: inline-flex;
+    list-style-type: none;
+    
+}
+
+.footer1 ul li{
+    margin: 0 0 0 3rem;
+}
+
+.footer1 ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 0 0 3rem;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.footer1{
+    list-style-type: none;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+table{
+    border: 20px;
+    text-align: left;
+    font-size: large;
+    margin-left: 240px;
+    margin-right: 200px;
+    display: inline-block;
+    background-color: rgba(61, 77, 61, 0.7);
+    color: white;
+}
+th{
+    height: 80px;
+}
+td{
+    height: 50px;
+}
+@media only screen and (max-width:600px){table{
+
+margin-left: 10px;
+font-size: small;
+
+}
+}
+form{
+    display: inline-block;
+    
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .form1 {
+    border-radius: 5px;
+    background-color: darkgrey ;
+    padding: 50px ;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 50%;
+    width: 400px;
+    
+   
+
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  @media only screen and (max-width:400px) {.form1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  }
+  h3{
+    text-align: center;
+  }
+
+.content2{
+    margin: 5px;
+    float: left;
+    width: 350px;
+   
+}
+.container6 h3{
+text-align: center;
+font-size: 25px;
+color: rgb(0, 0, 255, 0.5);
+}
